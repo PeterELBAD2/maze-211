@@ -12,6 +12,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile2`, function (sprite, l
     mySprite3.sayText("Hello.")
     tiles.placeOnRandomTile(mySprite3, assets.tile`myTile1`)
     tiles.placeOnRandomTile(mySprite, assets.tile`myTile0`)
+    info.startCountdown(90)
 })
 info.onLifeZero(function () {
     game.over(false)
