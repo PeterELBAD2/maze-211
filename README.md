@@ -26,4 +26,10 @@ Level 2
 ## Story
 You wake up in a maze and you try to get out of here
 
+
+## Used For
+PC/MAC
+WINDOWS 11
+WINDOWS 10
+WINDOWS 7
 c2022
