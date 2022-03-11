@@ -6,6 +6,7 @@ info.onCountdownEnd(function () {
     info.startCountdown(65)
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile2`, function (sprite, location) {
+    info.startCountdown(100)
     tiles.setCurrentTilemap(tilemap`level2`)
     myEnemy.destroy()
     mySprite3 = sprites.create(assets.image`npc`, SpriteKind.Npc)
